@@ -1,0 +1,53 @@
+# Testing
+test/
+*.test.js
+jest.config.js
+coverage/
+.nyc_output
+
+# Development
+.eslintrc.js
+.eslintignore
+.github/
+.vscode/
+.idea/
+
+# Documentation (keep README.md)
+docs/
+*.md
+!README.md
+
+# Sample files and test data
+sample_files/
+attachments/
+emails*/
+output/
+extracted/
+temp/
+*.pst
+*.ost
+*.mbox
+*.olm
+
+# Development files
+src/
+examples/
+demo/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.tgz
+
+# Git
+.git/
+.gitignore
