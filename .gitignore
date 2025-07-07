@@ -137,3 +137,82 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# VaultMail specific
+# Test data and sample files
+sample_files/
+emails/
+emails_mbox/
+emails_mbox_test/
+emails_ost/
+emails_ost_test/
+emails_pst/
+emails_pst_test/
+attachments/
+attachments_ost/
+attachments_ost_test/
+attachments_mbox/
+attachments_mbox_test/
+
+# Output directories (users might create these)
+output/
+extracted/
+temp/
+readpst_temp/
+
+# Email archive test files (potentially large)
+*.pst
+*.ost
+*.mbox
+*.olm
+test.pst
+test.ost
+test.mbox
+test.olm
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development and build artifacts
+build/
+dist/
+*.min.js
+*.map
+
+# Coverage reports (additional formats)
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Package manager lockfiles (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# Jest cache
+.jest/
+
+# NPM publish artifacts
+*.tgz
+vaultmail-*.tgz
